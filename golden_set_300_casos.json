@@ -1,0 +1,3002 @@
+[
+  {
+    "id_caso": 1,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Verbo Divino el 2026-11-23 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 2,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-23 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 3,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Colegio Tabancura el día 2026-11-27 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 4,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Necesitamos programar visita al The Grange School para el 2026-11-27 en el bloque Tarde llevando 6 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 5,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-25 (Tarde) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 6,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Solicito confirmar reserva de 10 stands en Colegio Everest el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 7,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al The Grange School pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 8,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-27, bloque Tarde) con 10 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 9,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Liceo Carmela Carvajal el 2026-11-23 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 10,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Verbo Divino para el 2026-11-26 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 11,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Alicante del Rosal este 2026-11-24 en la Tarde, necesitamos llevar 11 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 12,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Instituto Nacional en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 13,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-24 (Tarde) requerimos instalar 12 stands de apoyo.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 14,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio San Ignacio el día 2026-11-25 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 15,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al The Grange School para el 2026-11-26 en el bloque Tarde llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 16,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Agendar traslado de 9 stands hacia Colegio Tabancura en la fecha 2026-11-27, bloque Tarde.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 17,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Carmela Carvajal este 2026-11-24 en la Tarde, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 18,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Instituto Nacional el día 2026-11-26 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 19,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Saint George's College en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 20,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio Alicante del Rosal el 2026-11-23 (Tarde) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 21,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Saint George's College en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 22,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-27 (Mañana) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 23,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Alicante del Rosal en la fecha 2026-11-26, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 24,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio San Ignacio para el 2026-11-24 en el bloque Mañana llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 25,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Instituto Nacional pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 26,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Saint George's College",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Saint George's College pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 27,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Liceo Carmela Carvajal pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 28,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Alicante del Rosal el 2026-11-26 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 29,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-27 en la Mañana, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 30,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio San Ignacio pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 31,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Verbo Divino este 2026-11-27 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 32,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Instituto Nacional en la fecha 2026-11-27, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 33,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio Verbo Divino el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 34,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio San Ignacio el 2026-11-23 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 35,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Liceo Carmela Carvajal el día 2026-11-24 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 36,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Carmela Carvajal este 2026-11-23 en la Tarde, necesitamos llevar 12 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 37,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio Tabancura pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 38,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Instituto Nacional para el 2026-11-26 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 39,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio Everest el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 40,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Tabancura este 2026-11-26 en la Mañana, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 41,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Colegio Tabancura en la fecha 2026-11-23, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 42,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio Tabancura pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 43,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Instituto Nacional el día 2026-11-23 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 44,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Liceo Augusto D'Halmar el día 2026-11-24 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 45,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Liceo Carmela Carvajal (2026-11-25, bloque Mañana) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 46,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Alicante del Rosal este 2026-11-23 en la Mañana, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 47,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Tabancura para el 2026-11-24 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 48,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Colegio Alicante del Rosal el día 2026-11-25 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 49,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio Tabancura pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 50,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Necesitamos programar visita al Instituto Nacional para el 2026-11-25 en el bloque Mañana llevando 11 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 51,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Confirmar salida a Saint George's College (2026-11-27, bloque Mañana) con 7 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 52,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia The Grange School en la fecha 2026-11-25, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 53,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio San Ignacio para el 2026-11-25 en el bloque Mañana llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 54,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en The Grange School el 2026-11-27 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 55,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Para la charla en Instituto Nacional el 2026-11-27 (Mañana) requerimos instalar 10 stands de apoyo.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 56,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Instituto Nacional (2026-11-23, bloque Tarde) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 57,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Solicito confirmar reserva de 12 stands en Liceo Carmela Carvajal el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 58,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Instituto Nacional pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 59,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Solicito confirmar reserva de 8 stands en Colegio Everest el día 2026-11-23 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 60,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Agendar traslado de 6 stands hacia Liceo Carmela Carvajal en la fecha 2026-11-25, bloque Mañana.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 61,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Solicito confirmar reserva de 9 stands en The Grange School el día 2026-11-24 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 62,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Liceo Carmela Carvajal (2026-11-24, bloque Mañana) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 63,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-25, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 64,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Verbo Divino para el 2026-11-25 en el bloque Mañana llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 65,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Solicito confirmar reserva de 8 stands en Liceo Augusto D'Halmar el día 2026-11-26 (bloque Tarde).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 66,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Agendar traslado de 7 stands hacia Colegio Tabancura en la fecha 2026-11-23, bloque Tarde.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 67,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio Everest el día 2026-11-23 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 68,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Colegio Alicante del Rosal en la fecha 2026-11-23, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 69,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Colegio Everest (2026-11-25, bloque Mañana) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 70,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Instituto Nacional en la fecha 2026-11-27, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 71,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Carmela Carvajal este 2026-11-26 en la Tarde, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 72,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia The Grange School en la fecha 2026-11-24, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 73,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Carmela Carvajal para el 2026-11-25 en el bloque Mañana llevando 7 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 74,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Carmela Carvajal para el 2026-11-26 en el bloque Mañana llevando 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 75,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-26 (Tarde) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 76,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Solicito confirmar reserva de 11 stands en Colegio Everest el día 2026-11-24 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 77,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio Tabancura el día 2026-11-24 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 78,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Confirmar salida a Liceo Augusto D'Halmar (2026-11-27, bloque Tarde) con 10 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 79,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Solicito confirmar reserva de 12 stands en The Grange School el día 2026-11-26 (bloque Tarde).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 80,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia The Grange School en la fecha 2026-11-24, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 81,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Necesitamos programar visita al Saint George's College para el 2026-11-25 en el bloque Tarde llevando 6 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 82,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Solicito confirmar reserva de 6 stands en Liceo Carmela Carvajal el día 2026-11-26 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 83,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Colegio Alicante del Rosal (2026-11-27, bloque Tarde) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 84,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Liceo Augusto D'Halmar (2026-11-23, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 85,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio Everest (2026-11-27, bloque Mañana) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 86,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-26 en la Tarde, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 87,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Instituto Nacional pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 88,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Liceo Augusto D'Halmar en la fecha 2026-11-23, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 89,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio San Ignacio el día 2026-11-25 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 90,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Colegio Everest (2026-11-25, bloque Tarde) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 91,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Tabancura para el 2026-11-23 en el bloque Tarde llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 92,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Carmela Carvajal para el 2026-11-24 en el bloque Mañana llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 93,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-27, bloque Mañana) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 94,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Solicito confirmar reserva de 7 stands en Liceo Augusto D'Halmar el día 2026-11-27 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 95,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Liceo Augusto D'Halmar el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 96,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Liceo Carmela Carvajal el 2026-11-23 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 97,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Colegio San Ignacio en la fecha 2026-11-25, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 98,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio Everest el día 2026-11-26 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 99,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Agendar traslado de 11 stands hacia Instituto Nacional en la fecha 2026-11-26, bloque Mañana.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 100,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Colegio Tabancura en la fecha 2026-11-26, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 101,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Confirmar salida a Liceo Carmela Carvajal (2026-11-23, bloque Tarde) con 7 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 102,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Liceo Augusto D'Halmar el 2026-11-26 (Tarde) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 103,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Liceo Carmela Carvajal (2026-11-25, bloque Tarde) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 104,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Colegio San Ignacio en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 105,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio Tabancura (2026-11-24, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 106,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio Verbo Divino el día 2026-11-25 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 107,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Liceo Augusto D'Halmar en la fecha 2026-11-25, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 108,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Agendar traslado de 8 stands hacia Colegio Tabancura en la fecha 2026-11-25, bloque Tarde.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 109,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Carmela Carvajal este 2026-11-23 en la Mañana, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 110,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Solicito confirmar reserva de 12 stands en Liceo Carmela Carvajal el día 2026-11-26 (bloque Tarde).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 111,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Carmela Carvajal para el 2026-11-25 en el bloque Mañana llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 112,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Colegio Tabancura en la fecha 2026-11-24, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 113,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Agendar traslado de 10 stands hacia Instituto Nacional en la fecha 2026-11-26, bloque Mañana.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 114,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a The Grange School (2026-11-26, bloque Tarde) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 115,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Verbo Divino este 2026-11-23 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 116,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al Instituto Nacional para el 2026-11-27 en el bloque Tarde llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 117,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Agendar traslado de 9 stands hacia Colegio Everest en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 118,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Saint George's College este 2026-11-27 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 119,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Verbo Divino el 2026-11-24 (Mañana) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 120,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Instituto Nacional el día 2026-11-27 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 121,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Liceo Augusto D'Halmar en la fecha 2026-11-26, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 122,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al The Grange School pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 123,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Liceo Augusto D'Halmar el 2026-11-24 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 124,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Instituto Nacional (2026-11-23, bloque Mañana) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 125,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-26, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 126,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-27, bloque Mañana) con 11 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 127,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Saint George's College el 2026-11-23 (Mañana) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 128,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Agendar traslado de 7 stands hacia Saint George's College en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 129,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al The Grange School pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 130,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a The Grange School (2026-11-23, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 131,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Verbo Divino en la fecha 2026-11-24, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 132,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Everest en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 133,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-26, bloque Mañana) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 134,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio San Ignacio (2026-11-24, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 135,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Liceo Carmela Carvajal pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 136,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al The Grange School pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 137,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Liceo Carmela Carvajal en la fecha 2026-11-24, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 138,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Liceo Carmela Carvajal pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 139,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Instituto Nacional en la fecha 2026-11-26, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 140,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en The Grange School este 2026-11-24 en la Tarde, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 141,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Tabancura en la fecha 2026-11-24, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 142,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Agendar traslado de 12 stands hacia Saint George's College en la fecha 2026-11-23, bloque Tarde.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 143,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en The Grange School el día 2026-11-27 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 144,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Colegio Alicante del Rosal (2026-11-24, bloque Mañana) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 145,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-26 en el bloque Tarde llevando 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 146,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Confirmar salida a Colegio San Ignacio (2026-11-24, bloque Tarde) con 12 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 147,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Tabancura para el 2026-11-26 en el bloque Mañana llevando 9 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 148,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al The Grange School para el 2026-11-25 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 149,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Tabancura este 2026-11-26 en la Tarde, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 150,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio Verbo Divino pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 151,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Para la charla en Colegio Verbo Divino el 2026-11-26 (Mañana) requerimos instalar 11 stands de apoyo.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 152,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Instituto Nacional (2026-11-25, bloque Mañana) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 153,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Alicante del Rosal este 2026-11-26 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 154,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Instituto Nacional el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 155,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Instituto Nacional en la fecha 2026-11-24, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 156,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio San Ignacio el 2026-11-26 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 157,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio Alicante del Rosal (2026-11-27, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 158,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Saint George's College este 2026-11-24 en la Tarde, necesitamos llevar 6 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 159,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Liceo Augusto D'Halmar pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 160,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-26 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 161,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en The Grange School el 2026-11-25 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 162,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Liceo Carmela Carvajal el 2026-11-27 (Tarde) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 163,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Agendar traslado de 6 stands hacia Colegio Verbo Divino en la fecha 2026-11-23, bloque Tarde.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 164,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Instituto Nacional el 2026-11-23 (Tarde) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 165,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Instituto Nacional para el 2026-11-27 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 166,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en The Grange School este 2026-11-25 en la Tarde, necesitamos llevar 9 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 167,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Carmela Carvajal para el 2026-11-26 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 168,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Colegio Tabancura (2026-11-23, bloque Tarde) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 169,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-25 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 170,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Colegio Tabancura en la fecha 2026-11-25, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 171,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Saint George's College en la fecha 2026-11-26, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 172,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-23, bloque Mañana) con 7 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 173,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Alicante del Rosal este 2026-11-27 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 174,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio Verbo Divino pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 175,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Colegio San Ignacio (2026-11-25, bloque Mañana) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 176,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-27 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 177,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Necesitamos programar visita al The Grange School para el 2026-11-23 en el bloque Mañana llevando 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 178,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-24 en el bloque Mañana llevando 7 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 179,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Agendar traslado de 7 stands hacia Liceo Carmela Carvajal en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 180,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Augusto D'Halmar para el 2026-11-23 en el bloque Tarde llevando 7 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 181,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Saint George's College el 2026-11-24 (Mañana) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 182,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-24 en el bloque Tarde llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 183,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Solicito confirmar reserva de 9 stands en Colegio Everest el día 2026-11-27 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 184,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Tabancura este 2026-11-27 en la Mañana, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 185,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-25 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 186,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Everest este 2026-11-26 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 187,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio Alicante del Rosal el día 2026-11-27 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 188,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Liceo Augusto D'Halmar (2026-11-27, bloque Tarde) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 189,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio Verbo Divino el día 2026-11-27 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 190,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Confirmar salida a The Grange School (2026-11-26, bloque Tarde) con 8 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 191,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Saint George's College este 2026-11-25 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 192,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Colegio Verbo Divino el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 193,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio Tabancura el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 194,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-23 (Tarde) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 195,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-24 (Mañana) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 196,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Tabancura este 2026-11-25 en la Mañana, necesitamos llevar 10 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 197,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Colegio Tabancura (2026-11-27, bloque Mañana) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 198,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Instituto Nacional pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 199,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-24 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 200,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio San Ignacio el día 2026-11-23 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 201,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-25 en el bloque Tarde llevando 10 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 202,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Instituto Nacional el día 2026-11-24 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 203,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-26 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 204,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Colegio Everest (2026-11-23, bloque Tarde) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 205,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Saint George's College el 2026-11-23 (Mañana) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 206,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Solicito confirmar reserva de 12 stands en Liceo Carmela Carvajal el día 2026-11-25 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 207,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Alicante del Rosal este 2026-11-23 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 208,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Colegio Everest el día 2026-11-27 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 209,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio Everest el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 210,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Agendar traslado de 9 stands hacia Colegio Everest en la fecha 2026-11-27, bloque Tarde.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 211,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Colegio Everest el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 212,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Agendar traslado de 7 stands hacia Colegio Alicante del Rosal en la fecha 2026-11-23, bloque Tarde.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 213,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Everest en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 214,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-24 en el bloque Mañana llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 215,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Alicante del Rosal este 2026-11-24 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 216,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Liceo Augusto D'Halmar el día 2026-11-24 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 217,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Liceo Augusto D'Halmar (2026-11-27, bloque Tarde) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 218,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Alicante del Rosal en la fecha 2026-11-24, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 219,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Liceo Augusto D'Halmar (2026-11-23, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 220,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-23 en la Tarde, necesitamos llevar 6 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 221,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Liceo Augusto D'Halmar el 2026-11-27 (Tarde) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 222,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Augusto D'Halmar este 2026-11-24 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 223,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al The Grange School pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 224,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en Colegio Tabancura el día 2026-11-24 (bloque Mañana).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 225,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Tabancura en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 226,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Confirmar salida a Colegio Alicante del Rosal (2026-11-27, bloque Mañana) con 11 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 227,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-23 en el bloque Tarde llevando 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 228,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "",
+    "bloque": "Mañana",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio Verbo Divino pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 229,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio Everest (2026-11-24, bloque Mañana) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 230,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio Tabancura el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 231,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Instituto Nacional pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 232,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Carmela Carvajal este 2026-11-24 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 233,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-27 (Mañana) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 234,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-24 (Mañana) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 235,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en The Grange School el 2026-11-23 (Tarde) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 236,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Confirmar salida a Liceo Augusto D'Halmar (2026-11-25, bloque Tarde) con 1 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 237,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Liceo Carmela Carvajal (2026-11-25, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 238,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-26 (Mañana) requerimos instalar 12 stands de apoyo.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 239,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-26 en la Tarde, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 240,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Verbo Divino este 2026-11-24 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 241,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 6,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-24, bloque Tarde) con 6 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 242,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio Everest el día 2026-11-27 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 243,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Solicito confirmar reserva de 11 stands en Colegio San Ignacio el día 2026-11-25 (bloque Mañana).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 244,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Instituto Nacional pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 245,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Instituto Nacional este 2026-11-26 en la Tarde, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 246,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-24",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Carmela Carvajal este 2026-11-24 en la Tarde, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 247,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Colegio Verbo Divino (2026-11-23, bloque Mañana) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 248,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Verbo Divino para el 2026-11-26 en el bloque Mañana llevando 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 249,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Instituto Nacional el 2026-11-25 (Tarde) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 250,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-24 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 251,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-27 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 252,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-25 (Tarde) requerimos instalar 8 stands de apoyo.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 253,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Liceo Carmela Carvajal (2026-11-23, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 254,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Instituto Nacional el 2026-11-26 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 255,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en The Grange School el 2026-11-23 (Tarde) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 256,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Saint George's College",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Saint George's College pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 257,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 7,
+    "prompt_usuario": "Agendar traslado de 7 stands hacia The Grange School en la fecha 2026-11-25, bloque Mañana.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 258,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a Colegio San Ignacio (2026-11-25, bloque Tarde) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 259,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al The Grange School pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 260,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 11,
+    "prompt_usuario": "Confirmar salida a The Grange School (2026-11-25, bloque Tarde) con 11 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 261,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Everest para el 2026-11-27 en el bloque Mañana llevando 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 262,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Solicito confirmar reserva de 3 stands en Colegio Alicante del Rosal el día 2026-11-25 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 263,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en The Grange School el día 2026-11-25 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 264,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-23 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 265,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al Instituto Nacional para el 2026-11-27 en el bloque Tarde llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 266,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Colegio Alicante del Rosal pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 267,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Liceo Augusto D'Halmar pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 268,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a The Grange School (2026-11-23, bloque Mañana) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 269,
+    "user_persona": "Docente Expositor",
+    "colegio": "Saint George's College",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Saint George's College en la fecha 2026-11-24, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 270,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Colegio Everest en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 271,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Augusto D'Halmar",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Augusto D'Halmar para el 2026-11-25 en el bloque Tarde llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 272,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Confirmar salida a Instituto Nacional (2026-11-26, bloque Mañana) con 12 stands institucionales.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 273,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 12,
+    "prompt_usuario": "Para la charla en Colegio Alicante del Rosal el 2026-11-23 (Tarde) requerimos instalar 12 stands de apoyo.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 274,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en Instituto Nacional el 2026-11-25 (Mañana) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 275,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-23",
+    "bloque": "Tarde",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Solicito confirmar reserva de 2 stands en The Grange School el día 2026-11-23 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 276,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Agendar traslado de 2 stands hacia Instituto Nacional en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 277,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Para la charla en Colegio Everest el 2026-11-26 (Mañana) requerimos instalar 2 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 278,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en The Grange School este 2026-11-27 en la Tarde, necesitamos llevar 3 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 279,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Everest",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Everest para el 2026-11-27 en el bloque Mañana llevando 10 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 280,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "",
+    "bloque": "Tarde",
+    "cantidad_stands": 0,
+    "prompt_usuario": "Urgente: necesitamos ir al Instituto Nacional pero aún no sabemos cuántos stands ni la fecha exacta.",
+    "comportamiento_esperado": "DATOS_INCOMPLETOS"
+  },
+  {
+    "id_caso": 281,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Necesitamos programar visita al Colegio Alicante del Rosal para el 2026-11-27 en el bloque Tarde llevando 8 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 282,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Para la charla en Colegio Tabancura el 2026-11-25 (Mañana) requerimos instalar 3 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 283,
+    "user_persona": "Docente Expositor",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Instituto Nacional en la fecha 2026-11-27, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 284,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Colegio San Ignacio en la fecha 2026-11-23, bloque Mañana.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 285,
+    "user_persona": "Docente Expositor",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia Liceo Carmela Carvajal en la fecha 2026-11-27, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 286,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Agendar traslado de 3 stands hacia Colegio Tabancura en la fecha 2026-11-25, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 287,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-23",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Confirmar salida a The Grange School (2026-11-23, bloque Mañana) con 2 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 288,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-25",
+    "bloque": "Mañana",
+    "cantidad_stands": 3,
+    "prompt_usuario": "Confirmar salida a Liceo Carmela Carvajal (2026-11-25, bloque Mañana) con 3 stands institucionales.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 289,
+    "user_persona": "Docente Expositor",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Para la charla en Colegio Alicante del Rosal el 2026-11-26 (Mañana) requerimos instalar 10 stands de apoyo.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 290,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-26",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Liceo Carmela Carvajal este 2026-11-26 en la Mañana, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 291,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 9,
+    "prompt_usuario": "Necesitamos programar visita al Colegio San Ignacio para el 2026-11-25 en el bloque Tarde llevando 9 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 292,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Alicante del Rosal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Solicito confirmar reserva de 1 stands en Colegio Alicante del Rosal el día 2026-11-27 (bloque Tarde).",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 293,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Agendar traslado de 1 stands hacia The Grange School en la fecha 2026-11-26, bloque Tarde.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 294,
+    "user_persona": "Docente Expositor",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-24",
+    "bloque": "Mañana",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Para la charla en The Grange School el 2026-11-24 (Mañana) requerimos instalar 1 stands de apoyo.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 295,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "The Grange School",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en The Grange School este 2026-11-27 en la Tarde, necesitamos llevar 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 296,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Instituto Nacional",
+    "fecha": "2026-11-25",
+    "bloque": "Tarde",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Instituto Nacional este 2026-11-25 en la Tarde, necesitamos llevar 8 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 297,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio San Ignacio",
+    "fecha": "2026-11-27",
+    "bloque": "Mañana",
+    "cantidad_stands": 2,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio San Ignacio este 2026-11-27 en la Mañana, necesitamos llevar 2 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  },
+  {
+    "id_caso": 298,
+    "user_persona": "Embajador Estudiantil",
+    "colegio": "Colegio Tabancura",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 10,
+    "prompt_usuario": "Hola! Tenemos feria vocacional en Colegio Tabancura este 2026-11-26 en la Tarde, necesitamos llevar 10 stands.",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 299,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Colegio Verbo Divino",
+    "fecha": "2026-11-26",
+    "bloque": "Tarde",
+    "cantidad_stands": 8,
+    "prompt_usuario": "Solicito confirmar reserva de 8 stands en Colegio Verbo Divino el día 2026-11-26 (bloque Tarde).",
+    "comportamiento_esperado": "RECHAZO_REGLA_NEGOCIO"
+  },
+  {
+    "id_caso": 300,
+    "user_persona": "Coordinador de Admisión",
+    "colegio": "Liceo Carmela Carvajal",
+    "fecha": "2026-11-27",
+    "bloque": "Tarde",
+    "cantidad_stands": 1,
+    "prompt_usuario": "Necesitamos programar visita al Liceo Carmela Carvajal para el 2026-11-27 en el bloque Tarde llevando 1 stands.",
+    "comportamiento_esperado": "EVALUAR_AGENDA_Y_STOCK"
+  }
+]
